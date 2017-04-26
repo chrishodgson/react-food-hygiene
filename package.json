@@ -1,0 +1,25 @@
+{
+  "name": "react-food-hygiene",
+  "version": "1.0.0",
+  "description": "Small web application built using ReactJs to show a summary of food hygiene ratings across the establishments in a local authority",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "node-jsx": "^0.13.3",
+    "webpack": "^2.2.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
